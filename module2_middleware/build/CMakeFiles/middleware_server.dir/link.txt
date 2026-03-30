@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/middleware_server.dir/src/main.cpp.o  -o middleware_server  libmiddleware_lib.a libproto_gen.a -lgrpc++ -lgrpc /usr/lib/x86_64-linux-gnu/libprotobuf.so -lpthread 

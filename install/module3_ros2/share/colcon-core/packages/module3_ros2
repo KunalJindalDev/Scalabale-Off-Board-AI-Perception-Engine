@@ -1,0 +1,1 @@
+gazebo_plugins:gazebo_ros:geometry_msgs:nav_msgs:python3-grpcio:python3-grpcio-tools:python3-numpy:python3-opencv:rclpy:sensor_msgs:std_msgs:tf2_ros

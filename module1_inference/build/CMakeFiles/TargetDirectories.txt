@@ -1,0 +1,8 @@
+/home/shreyas/CSC591-Robotics/module1_inference/build/CMakeFiles/rebuild_cache.dir
+/home/shreyas/CSC591-Robotics/module1_inference/build/CMakeFiles/edit_cache.dir
+/home/shreyas/CSC591-Robotics/module1_inference/build/CMakeFiles/inference_server.dir
+/home/shreyas/CSC591-Robotics/module1_inference/build/CMakeFiles/inference_lib.dir
+/home/shreyas/CSC591-Robotics/module1_inference/build/CMakeFiles/proto_gen.dir
+/home/shreyas/CSC591-Robotics/module1_inference/build/tests/CMakeFiles/rebuild_cache.dir
+/home/shreyas/CSC591-Robotics/module1_inference/build/tests/CMakeFiles/edit_cache.dir
+/home/shreyas/CSC591-Robotics/module1_inference/build/tests/CMakeFiles/test_model_runner.dir

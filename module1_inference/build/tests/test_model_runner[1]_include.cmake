@@ -1,0 +1,5 @@
+if(EXISTS "/home/shreyas/CSC591-Robotics/module1_inference/build/tests/test_model_runner[1]_tests.cmake")
+  include("/home/shreyas/CSC591-Robotics/module1_inference/build/tests/test_model_runner[1]_tests.cmake")
+else()
+  add_test(test_model_runner_NOT_BUILT test_model_runner_NOT_BUILT)
+endif()

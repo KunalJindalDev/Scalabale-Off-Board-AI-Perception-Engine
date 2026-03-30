@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+package inference;
+
+// Shared gRPC service definition used by both Module 1 (inference server)
+// and Module 2 (middleware). Robots in Module 3 connect to Module 2 on
+// port 50051; Module 2 forwards to Module 1 on port 50052.
+
+service InferenceService {
+  // Unary RPC: single frame → single response
+  rpc Detect(DetectionRequest) returns (DetectionResponse);
+
+  // Bidirectional streaming: for high-frequency camera streams
+  rpc DetectStream(stream DetectionRequest) returns (stream DetectionResponse);
+}
+
+// Raw camera data for one frame (both RGB and aligned depth)
+message ImageFrame {
+  bytes  rgb_data   = 1;  // raw BGR8 bytes, width*height*3
+  bytes  depth_data = 2;  // raw float32 bytes, width*height (meters)
+  uint32 width      = 3;
+  uint32 height     = 4;
+}
+
+// One detected object with 2D image coords and back-projected 3D position
+message BoundingBox {
+  float  x_min      = 1;
+  float  y_min      = 2;
+  float  x_max      = 3;
+  float  y_max      = 4;
+  float  confidence = 5;
+  int32  class_id   = 6;
+  string class_name = 7;
+  // 3D world position computed from depth (robot-frame, metres)
+  float  world_x    = 8;
+  float  world_y    = 9;
+  float  world_z    = 10;
+}
+
+message DetectionRequest {
+  string     robot_id     = 1;  // unique robot identifier, e.g. "robot_0"
+  uint64     timestamp_ns = 2;  // nanosecond timestamp from ROS header
+  ImageFrame frame        = 3;
+  // Intrinsics needed to back-project depth → 3D
+  float      fx           = 4;
+  float      fy           = 5;
+  float      cx           = 6;
+  float      cy           = 7;
+}
+
+message DetectionResponse {
+  string              robot_id          = 1;
+  uint64              timestamp_ns      = 2;
+  repeated BoundingBox detections       = 3;
+  float               inference_time_ms = 4;  // server-side timing
+}

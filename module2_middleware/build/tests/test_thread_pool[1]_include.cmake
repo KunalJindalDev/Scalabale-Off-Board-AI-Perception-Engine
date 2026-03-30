@@ -1,0 +1,5 @@
+if(EXISTS "/home/shreyas/CSC591-Robotics/module2_middleware/build/tests/test_thread_pool[1]_tests.cmake")
+  include("/home/shreyas/CSC591-Robotics/module2_middleware/build/tests/test_thread_pool[1]_tests.cmake")
+else()
+  add_test(test_thread_pool_NOT_BUILT test_thread_pool_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+[console_scripts]
+fleet_manager = module3_ros2.fleet_manager:main
+obstacle_avoider = module3_ros2.obstacle_avoider:main
+robot_node = module3_ros2.robot_node:main
+

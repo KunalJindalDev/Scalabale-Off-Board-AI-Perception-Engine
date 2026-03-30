@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/test_model_runner.dir/test_model_runner.cpp.o  -o test_model_runner  -Wl,-rpath,/usr/local/lib ../libinference_lib.a ../libproto_gen.a /usr/local/lib/libonnxruntime.so -lgrpc++ -lgrpc /usr/lib/x86_64-linux-gnu/libprotobuf.so /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

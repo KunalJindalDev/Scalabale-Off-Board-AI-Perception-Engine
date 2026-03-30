@@ -1,0 +1,2 @@
+/usr/bin/ar qc libinference_lib.a  CMakeFiles/inference_lib.dir/src/model_runner.cpp.o CMakeFiles/inference_lib.dir/src/inference_server.cpp.o
+/usr/bin/ranlib libinference_lib.a

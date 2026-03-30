@@ -1,0 +1,9 @@
+running egg_info
+creating ../build/module3_ros2/module3_ros2.egg-info
+writing ../build/module3_ros2/module3_ros2.egg-info/PKG-INFO
+writing dependency_links to ../build/module3_ros2/module3_ros2.egg-info/dependency_links.txt
+writing entry points to ../build/module3_ros2/module3_ros2.egg-info/entry_points.txt
+writing requirements to ../build/module3_ros2/module3_ros2.egg-info/requires.txt
+writing top-level names to ../build/module3_ros2/module3_ros2.egg-info/top_level.txt
+writing manifest file '../build/module3_ros2/module3_ros2.egg-info/SOURCES.txt'
+reading manifest file '../build/module3_ros2/module3_ros2.egg-info/SOURCES.txt'

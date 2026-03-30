@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/model_runner.hpp
+string
+-
+vector
+-
+memory
+-
+onnxruntime/core/session/onnxruntime_cxx_api.h
+-
+onnxruntime_cxx_api.h
+-
+
+/home/shreyas/CSC591-Robotics/module1_inference/tests/test_model_runner.cpp
+gtest/gtest.h
+-
+cmath
+-
+vector
+-
+cstdint
+-
+filesystem
+-
+model_runner.hpp
+/home/shreyas/CSC591-Robotics/module1_inference/tests/model_runner.hpp
+

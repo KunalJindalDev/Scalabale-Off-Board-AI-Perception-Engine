@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+9f372ac1b319cc15817551a6aff767fb proto/inference.pb.cc

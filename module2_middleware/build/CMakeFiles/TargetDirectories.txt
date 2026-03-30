@@ -1,0 +1,8 @@
+/home/shreyas/CSC591-Robotics/module2_middleware/build/CMakeFiles/rebuild_cache.dir
+/home/shreyas/CSC591-Robotics/module2_middleware/build/CMakeFiles/edit_cache.dir
+/home/shreyas/CSC591-Robotics/module2_middleware/build/CMakeFiles/middleware_server.dir
+/home/shreyas/CSC591-Robotics/module2_middleware/build/CMakeFiles/middleware_lib.dir
+/home/shreyas/CSC591-Robotics/module2_middleware/build/CMakeFiles/proto_gen.dir
+/home/shreyas/CSC591-Robotics/module2_middleware/build/tests/CMakeFiles/rebuild_cache.dir
+/home/shreyas/CSC591-Robotics/module2_middleware/build/tests/CMakeFiles/edit_cache.dir
+/home/shreyas/CSC591-Robotics/module2_middleware/build/tests/CMakeFiles/test_thread_pool.dir

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/thread_pool.hpp
+condition_variable
+-
+functional
+-
+future
+-
+mutex
+-
+queue
+-
+stdexcept
+-
+thread
+-
+vector
+-
+
+/home/shreyas/CSC591-Robotics/module2_middleware/tests/test_thread_pool.cpp
+gtest/gtest.h
+-
+atomic
+-
+chrono
+-
+numeric
+-
+vector
+-
+thread_pool.hpp
+/home/shreyas/CSC591-Robotics/module2_middleware/tests/thread_pool.hpp
+

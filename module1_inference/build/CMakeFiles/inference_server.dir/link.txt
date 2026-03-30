@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/inference_server.dir/src/main.cpp.o  -o inference_server  -Wl,-rpath,/usr/local/lib libinference_lib.a libproto_gen.a /usr/local/lib/libonnxruntime.so -lgrpc++ -lgrpc /usr/lib/x86_64-linux-gnu/libprotobuf.so -lpthread 

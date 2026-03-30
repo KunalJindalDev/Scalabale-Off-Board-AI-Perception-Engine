@@ -1,0 +1,32 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "/workspace/module3_ros2/setup.py", line 7, in <module>
+    setup(
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)  # type: ignore[return-value]
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/core.py", line 186, in setup
+    return run_commands(dist)
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/core.py", line 202, in run_commands
+    dist.run_commands()
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py", line 1000, in run_commands
+    self.run_command(cmd)
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/dist.py", line 1107, in run_command
+    super().run_command(command)
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+    cmd_obj.run()
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/command/egg_info.py", line 312, in run
+    self.find_sources()
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/command/egg_info.py", line 320, in find_sources
+    mm.run()
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/command/egg_info.py", line 547, in run
+    self.prune_file_list()
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/command/sdist.py", line 163, in prune_file_list
+    super().prune_file_list()
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+    base_dir = self.distribution.get_fullname()
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+    return _distribution_fullname(self.get_name(), self.get_version())
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+    canonicalize_version(version, strip_trailing_zero=False),
+TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
