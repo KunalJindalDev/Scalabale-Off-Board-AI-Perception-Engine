@@ -67,66 +67,48 @@
     </model>
 
     <!-- ============================================================ -->
-    <!-- Static box obstacles                                          -->
+    <!-- People (COCO class 0 — detected reliably by YOLOv8)          -->
+    <!-- Models downloaded automatically from the Gazebo model server  -->
+    <!-- on first run; requires internet access.                       -->
     <!-- ============================================================ -->
 
-    <model name="obstacle_0">
+    <include>
+      <uri>model://person_standing</uri>
+      <name>person_0</name>
+      <pose>3 3 0 0 0 0</pose>
       <static>true</static>
-      <pose>3 3 0.5 0 0 0</pose>
-      <link name="link">
-        <collision name="col"><geometry><box><size>1 1 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>1 1 1</size></box></geometry>
-          <material><ambient>0.8 0.2 0.2 1</ambient></material>
-        </visual>
-      </link>
-    </model>
+    </include>
 
-    <model name="obstacle_1">
+    <include>
+      <uri>model://person_standing</uri>
+      <name>person_1</name>
+      <pose>-3 -3 0 0 0 1.5708</pose>
       <static>true</static>
-      <pose>-3 -3 0.5 0 0 0</pose>
-      <link name="link">
-        <collision name="col"><geometry><box><size>1.5 0.5 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>1.5 0.5 1</size></box></geometry>
-          <material><ambient>0.2 0.6 0.2 1</ambient></material>
-        </visual>
-      </link>
-    </model>
+    </include>
 
-    <model name="obstacle_2">
+    <include>
+      <uri>model://person_standing</uri>
+      <name>person_2</name>
+      <pose>5 -2 0 0 0 2.3562</pose>
       <static>true</static>
-      <pose>5 -2 0.5 0 0 0.7854</pose>
-      <link name="link">
-        <collision name="col"><geometry><box><size>2 0.3 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>2 0.3 1</size></box></geometry>
-          <material><ambient>0.2 0.2 0.8 1</ambient></material>
-        </visual>
-      </link>
-    </model>
+    </include>
 
-    <model name="obstacle_3">
+    <include>
+      <uri>model://person_standing</uri>
+      <name>person_3</name>
+      <pose>-5 4 0 0 0 0.7854</pose>
       <static>true</static>
-      <pose>-5 4 0.5 0 0 0</pose>
-      <link name="link">
-        <collision name="col"><geometry><box><size>0.8 0.8 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>0.8 0.8 1</size></box></geometry>
-          <material><ambient>0.8 0.6 0.0 1</ambient></material>
-        </visual>
-      </link>
-    </model>
+    </include>
 
-    <model name="obstacle_4">
+    <include>
+      <uri>model://person_standing</uri>
+      <name>person_4</name>
+      <pose>1 -5 0 0 0 3.1416</pose>
       <static>true</static>
-      <pose>1 -5 0.5 0 0 0.3</pose>
-      <link name="link">
-        <collision name="col"><geometry><box><size>1.2 0.4 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>1.2 0.4 1</size></box></geometry>
-          <material><ambient>0.6 0.0 0.8 1</ambient></material>
-        </visual>
-      </link>
-    </model>
+    </include>
 
     <!-- ============================================================ -->
-    <!-- Cylindrical pillars                                           -->
+    <!-- Cylindrical pillars (navigation challenge, not YOLO targets) -->
     <!-- ============================================================ -->
 
     <model name="pillar_0">

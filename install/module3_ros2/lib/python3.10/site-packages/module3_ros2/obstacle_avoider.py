@@ -61,8 +61,8 @@ class ObstacleAvoider(Node):
 
     # Tunable parameters
     DANGER_ZONE_M      = 1.5    # m — stop / steer if obstacle is closer
-    LINEAR_SPEED       = 0.25   # m/s — cruise speed
-    ANGULAR_SPEED      = 0.6    # rad/s — turning speed
+    LINEAR_SPEED       = 0.5    # m/s — cruise speed
+    ANGULAR_SPEED      = 1.2    # rad/s — turning speed
     RECOVERY_TIMEOUT_S = 3.0    # s — spin if stuck this long
     CONTROL_HZ         = 10.0   # Hz — cmd_vel publish rate
 
