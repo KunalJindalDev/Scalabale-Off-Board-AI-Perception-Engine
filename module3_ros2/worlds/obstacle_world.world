@@ -5,7 +5,7 @@
     <!-- Physics -->
     <physics type="ode">
       <real_time_update_rate>100</real_time_update_rate>
-      <max_step_size>0.05</max_step_size>
+      <max_step_size>0.01</max_step_size>
       <real_time_factor>0</real_time_factor>
     </physics>
 
@@ -24,10 +24,10 @@
     <!-- ============================================================ -->
     <model name="wall_north">
       <static>true</static>
-      <pose>0 10 0.5 0 0 0</pose>
+      <pose>0 6 0.5 0 0 0</pose>
       <link name="link">
-        <collision name="col"><geometry><box><size>20 0.2 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>20 0.2 1</size></box></geometry>
+        <collision name="col"><geometry><box><size>12 0.2 1</size></box></geometry></collision>
+        <visual    name="vis"><geometry><box><size>12 0.2 1</size></box></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient></material>
         </visual>
       </link>
@@ -35,10 +35,10 @@
 
     <model name="wall_south">
       <static>true</static>
-      <pose>0 -10 0.5 0 0 0</pose>
+      <pose>0 -6 0.5 0 0 0</pose>
       <link name="link">
-        <collision name="col"><geometry><box><size>20 0.2 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>20 0.2 1</size></box></geometry>
+        <collision name="col"><geometry><box><size>12 0.2 1</size></box></geometry></collision>
+        <visual    name="vis"><geometry><box><size>12 0.2 1</size></box></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient></material>
         </visual>
       </link>
@@ -46,10 +46,10 @@
 
     <model name="wall_east">
       <static>true</static>
-      <pose>10 0 0.5 0 0 1.5708</pose>
+      <pose>6 0 0.5 0 0 1.5708</pose>
       <link name="link">
-        <collision name="col"><geometry><box><size>20 0.2 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>20 0.2 1</size></box></geometry>
+        <collision name="col"><geometry><box><size>12 0.2 1</size></box></geometry></collision>
+        <visual    name="vis"><geometry><box><size>12 0.2 1</size></box></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient></material>
         </visual>
       </link>
@@ -57,10 +57,10 @@
 
     <model name="wall_west">
       <static>true</static>
-      <pose>-10 0 0.5 0 0 1.5708</pose>
+      <pose>-6 0 0.5 0 0 1.5708</pose>
       <link name="link">
-        <collision name="col"><geometry><box><size>20 0.2 1</size></box></geometry></collision>
-        <visual    name="vis"><geometry><box><size>20 0.2 1</size></box></geometry>
+        <collision name="col"><geometry><box><size>12 0.2 1</size></box></geometry></collision>
+        <visual    name="vis"><geometry><box><size>12 0.2 1</size></box></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient></material>
         </visual>
       </link>
@@ -124,7 +124,7 @@
 
     <model name="pillar_1">
       <static>true</static>
-      <pose>4 6 0.75 0 0 0</pose>
+      <pose>3 4 0.75 0 0 0</pose>
       <link name="link">
         <collision name="col"><geometry><cylinder><radius>0.3</radius><length>1.5</length></cylinder></geometry></collision>
         <visual    name="vis"><geometry><cylinder><radius>0.3</radius><length>1.5</length></cylinder></geometry>
@@ -138,7 +138,7 @@
     <!-- ============================================================ -->
     <gui fullscreen="0">
       <camera name="user_camera">
-        <pose>0 -15 12 0 0.6 1.5708</pose>
+        <pose>0 -10 8 0 0.6 1.5708</pose>
         <view_controller>orbit</view_controller>
       </camera>
     </gui>
