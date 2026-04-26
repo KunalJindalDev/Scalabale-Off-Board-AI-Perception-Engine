@@ -89,7 +89,7 @@ _DEPTH_CAM_XML = """\
   <gazebo reference="camera_link">
     <sensor type="depth" name="depth_camera">
       <always_on>true</always_on>
-      <update_rate>15</update_rate>
+      <update_rate>5</update_rate>
       <camera name="depth_camera">
         <horizontal_fov>1.0472</horizontal_fov>
         <image>

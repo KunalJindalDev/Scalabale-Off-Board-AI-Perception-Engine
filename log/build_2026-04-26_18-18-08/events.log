@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.001054] (-) JobUnselected: {'identifier': 'module1_inference'}
+[0.001508] (-) JobUnselected: {'identifier': 'module2_middleware'}
+[0.001873] (module3_ros2) JobQueued: {'identifier': 'module3_ros2', 'dependencies': OrderedDict()}
+[0.002045] (module3_ros2) JobStarted: {'identifier': 'module3_ros2'}
+[0.099548] (-) TimerEvent: {}
+[0.199954] (-) TimerEvent: {}
+[0.300371] (-) TimerEvent: {}
+[0.400772] (-) TimerEvent: {}
+[0.501088] (-) TimerEvent: {}
+[0.601502] (-) TimerEvent: {}
+[0.702117] (-) TimerEvent: {}
+[0.766141] (module3_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/module3_ros2', 'build', '--build-base', '/workspace/build/module3_ros2/build', 'install', '--record', '/workspace/build/module3_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/module3_ros2', 'env': {'HOSTNAME': 'f7cea1f2cbfe', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/workspace/build/module3_ros2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/module3_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/module3_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.802424] (-) TimerEvent: {}
+[0.902891] (-) TimerEvent: {}
+[1.003308] (-) TimerEvent: {}
+[1.005723] (module3_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[1.006243] (module3_ros2) StdoutLine: {'line': b'writing ../build/module3_ros2/module3_ros2.egg-info/PKG-INFO\n'}
+[1.007084] (module3_ros2) StdoutLine: {'line': b'writing dependency_links to ../build/module3_ros2/module3_ros2.egg-info/dependency_links.txt\n'}
+[1.007200] (module3_ros2) StdoutLine: {'line': b'writing entry points to ../build/module3_ros2/module3_ros2.egg-info/entry_points.txt\n'}
+[1.007275] (module3_ros2) StdoutLine: {'line': b'writing requirements to ../build/module3_ros2/module3_ros2.egg-info/requires.txt\n'}
+[1.007359] (module3_ros2) StdoutLine: {'line': b'writing top-level names to ../build/module3_ros2/module3_ros2.egg-info/top_level.txt\n'}
+[1.008606] (module3_ros2) StdoutLine: {'line': b"reading manifest file '../build/module3_ros2/module3_ros2.egg-info/SOURCES.txt'\n"}
+[1.009477] (module3_ros2) StdoutLine: {'line': b"writing manifest file '../build/module3_ros2/module3_ros2.egg-info/SOURCES.txt'\n"}
+[1.009597] (module3_ros2) StdoutLine: {'line': b'running build\n'}
+[1.009651] (module3_ros2) StdoutLine: {'line': b'running build_py\n'}
+[1.009898] (module3_ros2) StdoutLine: {'line': b'copying module3_ros2/obstacle_avoider.py -> /workspace/build/module3_ros2/build/lib/module3_ros2\n'}
+[1.009988] (module3_ros2) StdoutLine: {'line': b'copying module3_ros2/inference_pb2.py -> /workspace/build/module3_ros2/build/lib/module3_ros2\n'}
+[1.010292] (module3_ros2) StdoutLine: {'line': b'copying module3_ros2/inference_pb2_grpc.py -> /workspace/build/module3_ros2/build/lib/module3_ros2\n'}
+[1.010381] (module3_ros2) StdoutLine: {'line': b'running install\n'}
+[1.010808] (module3_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[1.011412] (module3_ros2) StdoutLine: {'line': b'copying /workspace/build/module3_ros2/build/lib/module3_ros2/obstacle_avoider.py -> /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2\n'}
+[1.011705] (module3_ros2) StdoutLine: {'line': b'copying /workspace/build/module3_ros2/build/lib/module3_ros2/inference_pb2.py -> /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2\n'}
+[1.012040] (module3_ros2) StdoutLine: {'line': b'copying /workspace/build/module3_ros2/build/lib/module3_ros2/inference_pb2_grpc.py -> /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2\n'}
+[1.012450] (module3_ros2) StdoutLine: {'line': b'byte-compiling /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2/obstacle_avoider.py to obstacle_avoider.cpython-310.pyc\n'}
+[1.013858] (module3_ros2) StdoutLine: {'line': b'byte-compiling /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2/inference_pb2.py to inference_pb2.cpython-310.pyc\n'}
+[1.014520] (module3_ros2) StdoutLine: {'line': b'byte-compiling /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2/inference_pb2_grpc.py to inference_pb2_grpc.cpython-310.pyc\n'}
+[1.015282] (module3_ros2) StdoutLine: {'line': b'running install_data\n'}
+[1.015623] (module3_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.017398] (module3_ros2) StdoutLine: {'line': b"removing '/workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[1.017820] (module3_ros2) StdoutLine: {'line': b'Copying ../build/module3_ros2/module3_ros2.egg-info to /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2-0.1.0-py3.10.egg-info\n'}
+[1.018727] (module3_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.037030] (module3_ros2) StdoutLine: {'line': b'Installing fleet_manager script to /workspace/install/module3_ros2/lib/module3_ros2\n'}
+[1.037312] (module3_ros2) StdoutLine: {'line': b'Installing obstacle_avoider script to /workspace/install/module3_ros2/lib/module3_ros2\n'}
+[1.037699] (module3_ros2) StdoutLine: {'line': b'Installing robot_node script to /workspace/install/module3_ros2/lib/module3_ros2\n'}
+[1.037751] (module3_ros2) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/module3_ros2/install.log'\n"}
+[1.059436] (module3_ros2) CommandEnded: {'returncode': 0}
+[1.068214] (module3_ros2) JobEnded: {'identifier': 'module3_ros2', 'rc': 0}
+[1.069323] (-) EventReactorShutdown: {}

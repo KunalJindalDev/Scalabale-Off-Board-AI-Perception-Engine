@@ -1,0 +1,30 @@
+[1.132s] Invoking command in '/workspace/module3_ros2': PYTHONPATH=/workspace/build/module3_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/module3_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/module3_ros2 build --build-base /workspace/build/module3_ros2/build install --record /workspace/build/module3_ros2/install.log --single-version-externally-managed install_data
+[1.396s] running egg_info
+[1.397s] writing ../build/module3_ros2/module3_ros2.egg-info/PKG-INFO
+[1.397s] writing dependency_links to ../build/module3_ros2/module3_ros2.egg-info/dependency_links.txt
+[1.398s] writing entry points to ../build/module3_ros2/module3_ros2.egg-info/entry_points.txt
+[1.398s] writing requirements to ../build/module3_ros2/module3_ros2.egg-info/requires.txt
+[1.398s] writing top-level names to ../build/module3_ros2/module3_ros2.egg-info/top_level.txt
+[1.400s] reading manifest file '../build/module3_ros2/module3_ros2.egg-info/SOURCES.txt'
+[1.401s] writing manifest file '../build/module3_ros2/module3_ros2.egg-info/SOURCES.txt'
+[1.402s] running build
+[1.402s] running build_py
+[1.402s] copying module3_ros2/obstacle_avoider.py -> /workspace/build/module3_ros2/build/lib/module3_ros2
+[1.403s] copying module3_ros2/inference_pb2.py -> /workspace/build/module3_ros2/build/lib/module3_ros2
+[1.403s] copying module3_ros2/inference_pb2_grpc.py -> /workspace/build/module3_ros2/build/lib/module3_ros2
+[1.403s] running install
+[1.403s] running install_lib
+[1.404s] copying /workspace/build/module3_ros2/build/lib/module3_ros2/inference_pb2.py -> /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2
+[1.405s] copying /workspace/build/module3_ros2/build/lib/module3_ros2/inference_pb2_grpc.py -> /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2
+[1.405s] byte-compiling /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2/inference_pb2.py to inference_pb2.cpython-310.pyc
+[1.406s] byte-compiling /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2/inference_pb2_grpc.py to inference_pb2_grpc.cpython-310.pyc
+[1.407s] running install_data
+[1.408s] running install_egg_info
+[1.410s] removing '/workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2-0.1.0-py3.10.egg-info' (and everything under it)
+[1.411s] Copying ../build/module3_ros2/module3_ros2.egg-info to /workspace/install/module3_ros2/lib/python3.10/site-packages/module3_ros2-0.1.0-py3.10.egg-info
+[1.412s] running install_scripts
+[1.437s] Installing fleet_manager script to /workspace/install/module3_ros2/lib/module3_ros2
+[1.437s] Installing obstacle_avoider script to /workspace/install/module3_ros2/lib/module3_ros2
+[1.437s] Installing robot_node script to /workspace/install/module3_ros2/lib/module3_ros2
+[1.438s] writing list of installed files to '/workspace/build/module3_ros2/install.log'
+[1.466s] Invoked command in '/workspace/module3_ros2' returned '0': PYTHONPATH=/workspace/build/module3_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/module3_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/module3_ros2 build --build-base /workspace/build/module3_ros2/build install --record /workspace/build/module3_ros2/install.log --single-version-externally-managed install_data
