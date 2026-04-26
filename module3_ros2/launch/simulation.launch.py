@@ -214,9 +214,9 @@ def generate_launch_description():
 
         # RSP starts immediately so the topic is ready before spawn_entity.py runs.
         robot_nodes.append(rsp)
-        robot_nodes.append(TimerAction(period=3.0 + i * 1.5, actions=[spawn]))
-        robot_nodes.append(TimerAction(period=5.0 + i * 1.5, actions=[robot_node]))
-        robot_nodes.append(TimerAction(period=5.0 + i * 1.5, actions=[avoider_node]))
+        robot_nodes.append(TimerAction(period=8.0 + i * 1.5, actions=[spawn]))
+        robot_nodes.append(TimerAction(period=10.0 + i * 1.5, actions=[robot_node]))
+        robot_nodes.append(TimerAction(period=10.0 + i * 1.5, actions=[avoider_node]))
 
     # ----------------------------------------------------------------
     # Fleet manager
